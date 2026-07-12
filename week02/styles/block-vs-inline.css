@@ -40,3 +40,8 @@ code {
     background-color: #3d503d;
     color: #fff;
 }
+
+.answer {
+    background-color: blue;
+    color: white;
+}
