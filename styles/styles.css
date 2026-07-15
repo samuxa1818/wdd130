@@ -13,7 +13,7 @@ h1 {
     color: aqua;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -21,12 +21,8 @@ img {
     box-shadow: 0 0 30px;
 }
 
-p {
-    padding: 10px;
-}
-
 main {
-    width: 100%;
+    max-width: 840px;
 }
 
 aside {
@@ -35,7 +31,7 @@ aside {
     padding: 15px;
     margin: 10px;
     text-align: center;
-    border: 1px dotted rgb(161, 119, 1);
+    border: 1px solid rgb(161, 119, 1);
     width: 90%;
 }
 
@@ -44,7 +40,9 @@ aside img {
     height: auto;
 }
 
-p { padding: 0; }
+p {
+    padding: 0;
+}
 
 footer {
     margin-top: 15px;
