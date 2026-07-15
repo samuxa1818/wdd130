@@ -24,3 +24,30 @@ img {
 p {
     padding: 10px;
 }
+
+main {
+    width: 100%;
+}
+
+aside {
+    background-color: rgb(252, 214, 2);
+    color: black;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    border: 1px dotted rgb(161, 119, 1);
+    width: 90%;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+p { padding: 0; }
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid black;
+    text-align: center;
+}
