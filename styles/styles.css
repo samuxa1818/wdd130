@@ -32,11 +32,11 @@ main img {
 aside {
     background-color: rgb(252, 214, 2);
     color: black;
-    padding: 15px;
-    margin: 10px;
+    padding: 1rem;
+    margin: 1rem;
     text-align: center;
     border: 1px solid rgb(161, 119, 1);
-    width: 90%;
+    width: 20rem;
 }
 
 aside img {
