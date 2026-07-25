@@ -53,6 +53,18 @@ nav, p, section, article {
     height: auto;
 }
 
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    background-color: rgb(0, 0, 0, 70%);
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    border: 1px solid var(--secondary-color);
+}
+
 h1 {
     position: absolute;
     top: 20px;
@@ -71,14 +83,3 @@ h2 {
     background-color: var(--primary-color);
 }
 
-.hero article {
-    position: absolute;
-    bottom: 20px;
-    background-color: rgb(0, 0, 0, 70%);
-}
-
-.hero article img {
-    float: right;
-    width: 125px;
-    border: 1px solid var(--secondary-color);
-}
