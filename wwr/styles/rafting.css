@@ -1,5 +1,5 @@
 :root {
-    --primary-color: rgb(12, 136, 238);
+    --primary-color: rgb(3, 70, 124);
     --secondary-color: rgb(255, 217, 0);
     --accent1-color: rgb(255, 255, 255);
     --accent2-color: rgb(0, 0, 0);
@@ -43,12 +43,6 @@ article {
     text-decoration: none;
 }
 
-.socialmedia img {
-    width: 100px;
-    height: auto;
-    display: inline;
-}
-
 .hero {
     position: relative;
 }
@@ -81,7 +75,6 @@ h1 {
     top: 20px;
     color: var(--accent1-color);
     background-color: var(--primary-color);
-    opacity: 0.7;
     text-align: center;
     width: 100%;
     padding: 16px;
@@ -94,11 +87,7 @@ h2 {
     background-color: var(--primary-color);
 }
 
-header img {
-    width: 150px;
-    height: auto;
 
-}
 /*Grid and FlexBox*/
 
 header {
