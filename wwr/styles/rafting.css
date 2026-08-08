@@ -70,7 +70,7 @@ article {
     border: 1px solid var(--secondary-color);
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     color: var(--accent1-color);
@@ -182,7 +182,7 @@ footer {
     margin-bottom: 20px;
 }
 
-.contact h2 {
+.contact h1 {
     background-color: transparent;
     color: var(--accent2-color);
     margin-bottom: 5px;
