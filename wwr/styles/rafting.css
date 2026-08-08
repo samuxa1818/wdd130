@@ -172,3 +172,163 @@ footer {
     width: 40px;
     height: auto;
 }
+
+/* =========================
+   CONTACT US PAGE
+   ========================= */
+
+.contact {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact h2 {
+    background-color: transparent;
+    color: var(--accent2-color);
+    margin-bottom: 5px;
+}
+
+.contact p {
+    margin: 2px;
+    padding: 0;
+}
+
+/* Mapa + Formulário */
+
+.to-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    align-items: start;
+    margin: 20px 16px;
+}
+
+/* Google Map */
+
+.map {
+    margin: 0;
+    padding: 0;
+}
+
+.map iframe {
+    width: 100%;
+    height: 320px;
+    border: 1px solid var(--accent2-color);
+}
+
+/* Formulário */
+
+.user {
+    margin: 0;
+    padding: 0;
+}
+
+.user form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Nome + Email */
+
+.user-information {
+    margin: 0;
+    padding: 0;
+}
+
+.user-information div {
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user-information input {
+    padding: 7px;
+}
+
+/* Message Purpose */
+
+.message-purpose {
+    margin: 0;
+    padding: 0;
+}
+
+.message-purpose > div {
+    margin: 7px 0;
+}
+
+.message-purpose p {
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 0;
+}
+
+/* Message */
+
+.message {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 15px;
+}
+
+.message textarea {
+    width: 100%;
+    padding: 8px;
+}
+
+/* Newsletter */
+
+.end {
+    margin: 0;
+    padding: 0;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+/* Botão */
+
+.user button {
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    border: 1px solid var(--accent2-color);
+    cursor: pointer;
+}
+
+/* Employees */
+
+.employees {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid var(--accent2-color);
+    margin-top: 25px;
+}
+
+.employees h2 {
+    width: 100%;
+    background-color: transparent;
+    color: var(--accent2-color);
+}
+
+.employees figure {
+    width: 30%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.employees img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.employees figcaption {
+    margin-top: 8px;
+}
