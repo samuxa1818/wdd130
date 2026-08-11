@@ -422,3 +422,78 @@ main form button {
     border: 1px solid var(--secondary-color);
     font-weight: bold;
 }
+
+.trip-title {
+    text-align: center;
+    margin: 30px 16px;
+}
+
+.trip-title h1 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.trip-title p {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.trip-detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    align-items: center;
+    margin: 30px 16px;
+}
+
+.trip-detail img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.trip-detail div {
+    padding: 20px;
+}
+
+.trip-detail h2 {
+    background-color: transparent;
+    color: var(--primary-color);
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.trip-detail p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+table {
+    width: 95%;
+    margin: 40px auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid var(--accent2-color);
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+}
+
+.trip-cta {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.trip-cta p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
