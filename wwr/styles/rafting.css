@@ -21,7 +21,8 @@ body {
 header,
 main,
 footer {
-    width: 840px;
+    width: 100%;
+    max-width: 840px;
     margin: 20px auto;
 }
 
@@ -116,7 +117,7 @@ nav ul {
 }
 
 nav a {
-    color: black;
+    color: var(--accent1-color);
     text-decoration: none;
     padding: 10px 20px;
 }
@@ -404,7 +405,8 @@ main form button {
     padding: 20px;
 }
 
-.content-grid h3 {
+.content-grid h2 {
+    background-color: transparent;
     color: var(--primary-color);
     margin-bottom: 10px;
 }
